@@ -1,0 +1,253 @@
+.navbar{
+    background-image: linear-gradient(to right, #154360, #174868, #184e70, #1a5379, #1c5981, #1f648e, #226f9b, #247aa8, #278ebc, #2aa2d0, #2fb7e3, #35ccf6)
+}
+*:focus {
+    outline: 0 !important;
+}
+.navbar h4{
+    color: #FFF;
+    padding-left: 16px;
+}
+
+.navbar h5{
+    color: #D6EAF8;
+    font-size: 0.9rem;
+    padding-left: 16px;
+}
+
+.navbar-nav a{
+    /* width: 74px; */
+    padding: 2px 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #FFF;
+}
+
+.navbar-nav a:hover{
+    transition: all ease 0.6s;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.title{
+    text-align: center;
+    box-shadow: 0px 2px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.title p{
+    padding: 4px;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color: #525252;
+}
+
+.dropdown{
+    display: flex;
+    width: 100%;
+    background-color: brown;
+}
+
+
+.btn-group1{
+    margin: 0px;
+    border: none;
+    width: 20%;
+    background-color: chartreuse;
+}
+
+.btn1{
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 0px;
+    padding: 4px 6px;
+    color: #FFF;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btn1:focus{
+    border: none;
+    outline: none;
+}
+
+.dropdown-menu a{
+    color: #FFF;
+}
+
+
+@media(max-width: 992px){
+    .dropdown{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: brown;
+    }
+
+    .btn-group1{
+        margin: 0px;
+        border: none;
+        width: 100%;
+        background-color: chartreuse;
+        text-align: center;
+    }
+}
+
+.notice-head{
+    color: #FFF;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #1B8FFB;
+    /* padding-bottom: 10px; */
+}
+
+.notice{
+    background-color: yellow; 
+    /* border:2px red solid; */
+    margin: 16px 0px 0px 0px;
+    width: 100%;
+    padding: 4px 0px;
+    /* border-radius: 4px; */
+    border-left: 4px solid #FB2D2A;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.guidelines{
+    margin: 2rem 2rem;
+    text-align: justify;
+}
+
+.guidelines h2{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    border-bottom: 2px solid blue;
+    padding: 10px;
+}
+
+.footer{
+    background-color: #2b2a2f;
+    padding: 10px 40px;
+    margin-top: 4%;
+}
+.nav-link li{
+    list-style-type: none;
+}
+
+.nav-link li a{
+    color: #FFF;
+}
+
+.nav-link ul{
+    padding: 0px 80px;
+    float: right;
+}
+
+.container-420{
+    color: #484848;
+    margin: 30px 60px 110px 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image_1{
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image_1 img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.second_round{
+    padding: 7px;
+    background-color: #FFC069;
+    border-radius: 50%;    
+    box-shadow: 4px 4px 20px 2px rgba(0, 0, 0, 0.2);
+}
+
+.about_1{
+    background-color: white;
+    margin-left: 20px;
+    padding-right: 40px;
+    box-shadow: 14px 14px 20px 0.2px rgba(254, 175, 5 , 0.2);
+    border-bottom: solid rgb(254, 175, 5) 2px; /* border-radius: 0px 0px 180px 0px; */
+    border-right: solid rgb(254, 175, 5) 2px;
+}
+
+
+.prof_name{
+    border-bottom: 1px solid #D89505;
+}
+
+.about_1 h5{
+    color: #D89505;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+.dept{
+    color: #484848;
+    text-transform: uppercase;
+    font-size: large;
+}
+
+.dept:hover{
+    text-decoration: none;
+}
+
+.about_1 p{
+    padding-top: 10px;
+}
+
+/* IPR PAGE CSS */
+.ipr-body{
+    background-color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    padding-right: 40px;
+    box-shadow: 14px 14px 20px 0.2px rgba(254, 175, 5 , 0.2);
+    border:solid rgb(254, 175, 5) 2px;
+    border-radius: 10px;
+}
+.ipr-body h1{
+    border-bottom: 1px solid rgb(254, 175, 5);
+}
+.ipr-body p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.ipr-contents{
+    padding: 20px;
+}
+.ipr-contents button{
+    border-radius: 20px;
+    background-color: rgb(254, 175, 5);
+    outline: none;
+    cursor: pointer;
+}
+
+.ipr-contents button:hover{
+    background-color: rgba(254, 175, 5, 0.6);
+    outline: none;
+
+}
+.ipr-contents button:active{
+    background-color: rgba(254, 175, 5, 0.2);
+    outline: none;
+
+}
+
+.ipr_button button{
+    border: none;
+    outline: none;
+    padding: 6px 14px;
+}
